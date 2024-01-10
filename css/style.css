@@ -52,6 +52,7 @@ h1 {
     text-align: center;
     padding: 20px;
     margin: 10px;
+    border-style: inset;
 }
 
 footer {
@@ -212,14 +213,7 @@ h2 {
 }
 
 @media (max-width: 1000px) {
-    .menu {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 550px) {
-    .menu {
+    .menu1 {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
@@ -229,6 +223,13 @@ h2 {
     .contenedor {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 550px) {
+    .menu1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
